@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>测试页面</title>
+  <link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      position: relative; /* 添加相对定位，以便为伪元素设置绝对定位 */
+    }
+    #header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    #logo {
+      max-width: 100%;
+      height: auto;
+    }
+    #divider {
+      width: 100%;
+      height: 5px;
+      background-color: rgb(29, 109, 180);
+    }
+    #content {
+      padding: 20px;
+      margin: 0 50px; /* 添加左右外边距 */
+      font-size: 18px;
+    }
+    h1 {
+      font-family: "华文中宋", serif;
+      font-size: 24px;
+      text-align: center;
+    }
+    .info {
+      font-size: 15px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+    #news-content {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+    <img id="logo" src="img/logo.gif" alt="Logo" width="500">
+    <div id="divider"></div>
+    <div id="content">
+      <h1>大标题</h1>
+      <div class="info">
+        <span>来源信息</span>
+        <span>编辑人信息</span>
+      </div>
+      <div id="news-content">
+        <p>这是新闻正文内容。</p>
+        <p>这是新闻正文内容的第二段。</p>
+      </div>
+    </div>
+  </div>
+  <div id="footer"></div>
+</body>
+</html>
